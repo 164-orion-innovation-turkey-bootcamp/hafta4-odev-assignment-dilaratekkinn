@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 import { Router } from '@angular/router';
 import { CartService } from './service/cart.service';
 import { AuthService } from './shared/auth.service';
@@ -11,9 +11,10 @@ import { AuthService } from './shared/auth.service';
 export class AppComponent implements OnInit {
   title = 'commerce';
   totalItem: number = 0;
-  searchTerm:string="";
+  searchTerm: string = '';
   user;
   userCart = [];
+  @ViewChild('dropdown', { static: false }) dropdown: ElementRef;
   constructor(
     private router: Router,
     private cartService: CartService,
@@ -37,12 +38,11 @@ export class AppComponent implements OnInit {
       this.getLentgh();
     });
   }
-  search(event:any){
-    this.searchTerm=(event.target as HTMLInputElement).value;
+  search(event: any) {
+    this.searchTerm = (event.target as HTMLInputElement).value;
     console.log(this.searchTerm);
     this.cartService.search.next(this.searchTerm);
   }
-
 
   getLentgh() {
     console.log('burada');
@@ -62,5 +62,12 @@ export class AppComponent implements OnInit {
     this.auth.user.next(null);
     localStorage.removeItem('user');
     this.router.navigate(['/login']);
+  }
+  toggle() {
+    if (this.dropdown.nativeElement.classList.contains('show')) {
+      this.dropdown.nativeElement.classList.remove('show');
+    } else {
+      this.dropdown.nativeElement.classList.add('show');
+    }
   }
 }

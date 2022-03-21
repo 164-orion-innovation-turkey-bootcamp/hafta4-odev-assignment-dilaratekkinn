@@ -1,6 +1,6 @@
 <!-- NavBar Başlangıç-->
 <nav *ngIf="user" class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" > Navbar</a>
+  <a class="navbar-brand"> Navbar</a>
   <button
     class="navbar-toggler"
     type="button"
@@ -16,15 +16,12 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link"
-          >Ana sayfa </a
-        >
+        <a class="nav-link">Ana sayfa </a>
       </li>
 
-      <li class="nav-item dropdown">
+      <li (click)="toggle()" class="nav-item dropdown">
         <a
           class="nav-link dropdown-toggle"
-          href="#"
           id="navbarDropdown"
           role="button"
           data-toggle="dropdown"
@@ -33,7 +30,7 @@
         >
           Üye İşlemleri
         </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <div class="dropdown-menu" #dropdown aria-labelledby="navbarDropdown">
           <a class="dropdown-item" routerLink="/login">Giriş Yap</a>
           <a class="dropdown-item" routerLink="/register">Üye ol</a>
           <div class="dropdown-divider"></div>
@@ -43,12 +40,12 @@
       <li class="nav-item">
         <a class="nav-link disabled">Mağazalarımız</a>
       </li>
-
     </ul>
     <form class="form-inline my-2 my-lg-0">
       <input
         class="form-control mr-sm-2"
-        [(ngModel)]="searchTerm" (keyup)="search($event)"
+        [(ngModel)]="searchTerm"
+        (keyup)="search($event)"
         type="search"
         placeholder="Aradığınız Ürün.."
         aria-label="Search"
@@ -77,7 +74,7 @@
       </a>
     </div>
     <div class="item">
-      <a  (click)="filter('Kolye')">
+      <a (click)="filter('Kolye')">
         <h6>Kolye</h6>
       </a>
     </div>
