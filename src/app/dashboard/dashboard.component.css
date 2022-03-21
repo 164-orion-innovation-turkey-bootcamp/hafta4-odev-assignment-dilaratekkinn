@@ -6,7 +6,7 @@
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background:#fff;
+  background-color: rgb(198 199 200);
   background-clip: border-box;
   border:1px solid rgba(0,0,0,0.2);
   border-radius: .25rem;
@@ -14,7 +14,6 @@
 .item h6{
   padding: 20px;
   margin: 0px 15px;
-
   font-family: 'EB Garamond', serif;
   font-size: 20px;
 }

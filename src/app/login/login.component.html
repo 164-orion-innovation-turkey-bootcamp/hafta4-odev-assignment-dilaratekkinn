@@ -6,7 +6,7 @@
           <h1>Giriş Yap</h1>
           <h6>Lütfen E-mail Adresinizi Ve Şifrenizi Giriniz</h6>
         </div>
-        <form  (ngSubmit)="login()">
+        <form [formGroup]="loginForm" (ngSubmit)="login()">
           <div class="form-group">
             <label for="exampleInputEmail1">E-mail adresi</label>
             <input

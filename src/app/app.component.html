@@ -1,59 +1,102 @@
 <!-- NavBar Başlangıç-->
-<nav  class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="container-fluid">
-    <div class="collapse navbar-collapse" id="navbarScroll">
-      <ul
-        class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
-        style="--bs-scroll-height: 100px"
-      >
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" routerLink="/dashboard"
-            >Ana Sayfa</a
-          >
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled">Mağazalar</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a
-            class="nav-link dropdown-toggle"
-            id="navbarScrollingDropdown"
-            role="button"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-          >
-            Giriş Yap
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-            <li>
-              <a class="dropdown-item" [routerLink]="['/login']">Giriş Yap</a>
-            </li>
-            <li>
-              <a class="dropdown-item" [routerLink]="['/register']">Üye ol</a>
-            </li>
-          </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled">Sertifika Sorgulama</a>
-        </li>
-      </ul>
-      <form class="d-flex">
-        <input
-          class="form-control me-2"
-          type="search"
-          placeholder="Aradığın Ürünü Yaz..."
-          aria-label="Search"
-        />
-        <button class="btn btn-outline-success" type="submit">Bul</button>
-      </form>
-      <button [routerLink]="['/cart']" class="btn btn primary">
-        <i style="font-size: 30px" class="fas fa-cart-plus"></i>
-        <div style="font-size: 10px" class="badge bg-danger">
-          {{ totalItem }}
+<nav *ngIf="user" class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" > Navbar</a>
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-toggle="collapse"
+    data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link"
+          >Ana sayfa </a
+        >
+      </li>
+
+      <li class="nav-item dropdown">
+        <a
+          class="nav-link dropdown-toggle"
+          href="#"
+          id="navbarDropdown"
+          role="button"
+          data-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="false"
+        >
+          Üye İşlemleri
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" routerLink="/login">Giriş Yap</a>
+          <a class="dropdown-item" routerLink="/register">Üye ol</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item">Hesabım</a>
         </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled">Mağazalarımız</a>
+      </li>
+
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input
+        class="form-control mr-sm-2"
+        [(ngModel)]="searchTerm" (keyup)="search($event)"
+        type="search"
+        placeholder="Aradığınız Ürün.."
+        aria-label="Search"
+      />
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+        Ara
       </button>
-      <button class="btn btn primary" *ngIf="user" (click)="onlogOut()">Log Out</button>
-    </div>
+    </form>
+    <button [routerLink]="['/cart']" class="btn btn primary">
+      <i style="font-size: 30px" class="fas fa-cart-plus"></i>
+      <div style="font-size: 10px" class="badge bg-danger">
+        {{ totalItem }}
+      </div>
+    </button>
+    <button class="btn btn primary" *ngIf="user" (click)="onlogOut()">
+      Log Out
+    </button>
   </div>
 </nav>
+
+<div *ngIf="user != null" class="card-top container-fluid">
+  <div class="d-flex justify-content-center" style="padding: 0 300px">
+    <div class="item">
+      <a (click)="filter('')">
+        <h6>Tüm Ürünler</h6>
+      </a>
+    </div>
+    <div class="item">
+      <a  (click)="filter('Kolye')">
+        <h6>Kolye</h6>
+      </a>
+    </div>
+    <div class="item">
+      <a (click)="filter('Yüzük')">
+        <h6>Yüzük</h6>
+      </a>
+    </div>
+    <div class="item">
+      <a (click)="filter('Bileklik')">
+        <h6>Bileklik</h6>
+      </a>
+    </div>
+    <div class="item">
+      <a (click)="filter('Küpe')">
+        <h6>Küpe</h6>
+      </a>
+    </div>
+  </div>
+</div>
 <!-- NavBar Bitişi-->
+<router-outlet></router-outlet>

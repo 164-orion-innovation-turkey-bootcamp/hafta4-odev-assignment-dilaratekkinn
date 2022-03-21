@@ -7,9 +7,9 @@ import { BehaviorSubject, map, Subject } from 'rxjs';
 })
 export class CartService {
   public cartItemList: any = [];
-  public productList = new BehaviorSubject<any>(
-    []
-  ); /* BehaviorSubject; şimdiki/geçerli değer kavramına sahip olan bir subject türüdür. En son yayılan değeri hafızada tutar.*/
+  public productList = new BehaviorSubject<any>([]);
+  public search=new BehaviorSubject<string>("");
+
   remove = new Subject();
   add=new Subject(); //component arası haberleşme
   constructor(private http: HttpClient) {}
@@ -22,10 +22,7 @@ export class CartService {
     this.productList.next(product); //akışa data eklemek için next()--(resolve dönmüş gibi düşün.)kullanılır
   }
   addtoCart(product: any) {
-    this.cartItemList.push(product);
-    this.productList.next(this.cartItemList);
-    this.getTotalPrice();
-    console.log('added'+this.cartItemList);
+    console.log(product);
     this.http.post('http://localhost:3000/cart',product).subscribe();
 
   }

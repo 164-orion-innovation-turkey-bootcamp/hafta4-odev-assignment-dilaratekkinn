@@ -6,11 +6,11 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
-import { ShopComponent } from './shop/shop.component';
-import { CartComponent } from './cart/cart.component';
-import { DetailComponent } from './detail/detail.component';
-import { ReactiveFormsModule } from '@angular/forms';
-
+import { FormsModule,ReactiveFormsModule } from '@angular/forms';
+import { DetailComponent } from './dashboard/detail/detail.component';
+import { ShopComponent } from './dashboard/shop/shop.component';
+import { CartComponent } from './dashboard/cart/cart.component';
+import { FilterPipe } from './shared/filter.pipe';
 
 @NgModule({
   declarations: [
@@ -18,15 +18,18 @@ import { ReactiveFormsModule } from '@angular/forms';
     LoginComponent,
     RegisterComponent,
     DashboardComponent,
+    DetailComponent,
     ShopComponent,
     CartComponent,
-    DetailComponent,
+    FilterPipe
+
   ],
     imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     ReactiveFormsModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent],

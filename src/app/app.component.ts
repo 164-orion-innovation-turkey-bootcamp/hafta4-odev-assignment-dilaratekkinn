@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { CartService } from './service/cart.service';
 import { AuthService } from './shared/auth.service';
@@ -8,10 +8,12 @@ import { AuthService } from './shared/auth.service';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
   title = 'commerce';
   totalItem: number = 0;
+  searchTerm:string="";
   user;
+  userCart = [];
   constructor(
     private router: Router,
     private cartService: CartService,
@@ -31,17 +33,34 @@ export class AppComponent {
     this.cartService.remove.subscribe((res) => {
       this.getLentgh();
     });
-    this.cartService.add.subscribe(res=>{
+    this.cartService.add.subscribe((res) => {
       this.getLentgh();
-    })
+    });
   }
+  search(event:any){
+    this.searchTerm=(event.target as HTMLInputElement).value;
+    console.log(this.searchTerm);
+    this.cartService.search.next(this.searchTerm);
+  }
+
+
   getLentgh() {
+    console.log('burada');
+    const test = [];
     this.cartService.getCart().subscribe((res) => {
-      this.totalItem = res.length;
+      res.forEach((element) => {
+        if (element.user == JSON.parse(localStorage.getItem('user')).id) {
+          test.push(element);
+        }
+      });
+      console.log(this.userCart);
+      this.userCart = test;
+      this.totalItem = this.userCart.length;
     });
   }
   onlogOut() {
     this.auth.user.next(null);
+    localStorage.removeItem('user');
     this.router.navigate(['/login']);
   }
 }

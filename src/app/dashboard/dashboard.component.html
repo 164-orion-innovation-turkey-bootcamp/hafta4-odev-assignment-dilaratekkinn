@@ -1,34 +1,15 @@
 <!-- Kategori Link Başlangıç-->
-<div class="card-top container-fluid">
+<div  class="card-top container-fluid">
   <div class="d-flex justify-content-center" style="padding: 0 300px">
     <div class="item">
-      <a>
-        <h6>Tüm Ürünler</h6>
-      </a>
-    </div>
-    <div class="item">
-      <a>
-        <h6>Kolye</h6>
-      </a>
-    </div>
-    <div class="item">
-      <a>
-        <h6>Yüzük</h6>
-      </a>
-    </div>
-    <div class="item">
-      <a>
-        <h6>Bileklik</h6>
-      </a>
-    </div>
-    <div class="item">
-      <a>
-        <h6>Küpe</h6>
+      <a style="color: #353433;" routerLink="/login">
+        <h6 >Ürünleri Görebilmek İçin Lütfen Giriş Yapınız..</h6>
       </a>
     </div>
   </div>
 </div>
 <!-- Kategori Link Bitiş-->
+
 <!--Bannerlar-->
 <div *ngIf="currentHref != '/dashboard/shop'">
   <img
@@ -55,3 +36,129 @@
     alt="Responsive image"
   />
 </div>
+<!-- Footer -->
+<footer class="bg-light text-center ">
+  <!-- Grid container -->
+  <div class="container p-4">
+
+    <!-- Section: Form -->
+    <section class="">
+      <form action="">
+        <!--Grid row-->
+        <div class="row d-flex justify-content-center">
+          <!--Grid column-->
+          <div class="col-auto">
+            <p class="pt-2">
+              <strong>Güncel Kampanyalarımız İçin Abone Olun!</strong>
+            </p>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-5 col-12">
+            <!-- Email input -->
+            <div class="form-outline mb-4">
+              <input type="email" id="form5Example2" class="form-control" />
+              <label class="form-label" for="form5Example2">Email adresi</label>
+            </div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-auto">
+
+            <!-- Submit button -->
+            <button style="background-color:#353433; border-color: #353433;" type="submit" class="btn btn-primary mb-4">
+              Abone Ol
+            </button>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </form>
+    </section>
+    <!-- Section: Form -->
+    <!-- Section: Links -->
+    <section class="">
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Kampanyalarımız</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-dark">Link 1</a>
+            </li>
+            <li>
+              <a href="#!" class="text-dark">Link 2</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Müşteri Hizmetleri</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-dark">Link 1</a>
+            </li>
+            <li>
+              <a href="#!" class="text-dark">Link 2</a>
+            </li>
+
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Bize Ulaşın</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-dark">Link 1</a>
+            </li>
+            <li>
+              <a href="#!" class="text-dark">Link 2</a>
+            </li>
+
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Blog</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-dark">Link 1</a>
+            </li>
+            <li>
+              <a href="#!" class="text-dark">Link 2</a>
+            </li>
+            <li>
+
+          </ul>
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </section>
+    <!-- Section: Links -->
+
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+    © 2022 Copyright:
+    <a class="text-dark">tekkinnshop.com</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
