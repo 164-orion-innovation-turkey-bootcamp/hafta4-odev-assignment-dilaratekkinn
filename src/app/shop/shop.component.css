@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&display=swap");
+
+.card {
+  padding: 20px;
+  margin: 50px;
+}
+
+.card img {
+  width: 260px;
+  height: 260px;
+  margin-bottom: 15px;
+  transition: 0.3s ease-in-out;
+}
+.card img:hover {
+  transition: 0.3s ease-in-out;
+  transform: scale(1.1);
+}
+
+.container h5 {
+  font-family: "EB Garamond", serif;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100ch;
+
+}
+
+.container p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100ch;
+  font-family: "EB Garamond", serif;
+  font-size: 18px;
+}

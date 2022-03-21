@@ -1,0 +1,36 @@
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&display=swap');
+.card-top {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background:#fff;
+  background-clip: border-box;
+  border:1px solid rgba(0,0,0,0.2);
+  border-radius: .25rem;
+}
+.item h6{
+  padding: 20px;
+  margin: 0px 15px;
+
+  font-family: 'EB Garamond', serif;
+  font-size: 20px;
+}
+.item a:hover{
+  color:#d5a770
+}
+
+.banner-1{
+  padding:50px;
+
+}
+.column {
+   width: 33.7%;
+   margin: 0px -300px 0px 300px ;
+}
+
+
+
+

@@ -1,0 +1,59 @@
+<!-- NavBar Başlangıç-->
+<nav  class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse" id="navbarScroll">
+      <ul
+        class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+        style="--bs-scroll-height: 100px"
+      >
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" routerLink="/dashboard"
+            >Ana Sayfa</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled">Mağazalar</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            id="navbarScrollingDropdown"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Giriş Yap
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+            <li>
+              <a class="dropdown-item" [routerLink]="['/login']">Giriş Yap</a>
+            </li>
+            <li>
+              <a class="dropdown-item" [routerLink]="['/register']">Üye ol</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled">Sertifika Sorgulama</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input
+          class="form-control me-2"
+          type="search"
+          placeholder="Aradığın Ürünü Yaz..."
+          aria-label="Search"
+        />
+        <button class="btn btn-outline-success" type="submit">Bul</button>
+      </form>
+      <button [routerLink]="['/cart']" class="btn btn primary">
+        <i style="font-size: 30px" class="fas fa-cart-plus"></i>
+        <div style="font-size: 10px" class="badge bg-danger">
+          {{ totalItem }}
+        </div>
+      </button>
+      <button class="btn btn primary" *ngIf="user" (click)="onlogOut()">Log Out</button>
+    </div>
+  </div>
+</nav>
+<!-- NavBar Bitişi-->

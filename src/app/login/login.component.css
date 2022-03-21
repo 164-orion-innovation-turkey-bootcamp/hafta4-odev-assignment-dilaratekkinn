@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&display=swap");
+
+.card {
+  margin-top: 10px;
+  border: none;
+  width: 500px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: linear-gradient(to right,hsl(263deg 28% 80%), hsl(252deg 9% 89%));
+}
+.card h1,
+h5,
+span {
+  color: #212529;
+  font-family: "EB Garamond", serif;
+}
+
+label {
+  font-size: 18px;
+  font-family: "EB Garamond", serif;
+  color:#212529;
+}
+
+.form-group input {
+  font-size: 18px;
+  font-family: "EB Garamond", serif;
+}
+
+.link {
+  margin-top: 10px;
+  font-family: "EB Garamond", serif;
+  color:#212529;
+}

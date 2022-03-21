@@ -1,0 +1,311 @@
+{
+  "Products": [
+    {
+      "id": 1,
+      "title": "2.37 Karat Alexandrite Pırlanta Kolye",
+      "price": "6.010 ",
+      "code": "RL07499",
+      "Features": " Özellikler :Toplam Karat:2.37,Ağırlık: 3.13 gr Ayar: 14K,Renk:EF,Berraklık:SI,Taş Özellikleri: 0.05 Karat EF SI Pırlanta,2.32 Karat Lab Created AlexandriteI,Ürün Açıklaması:Ürünlerimizin tamamı el yapımı olduğu için belirtilen ağırlık ve karatta (+/-) %5 sapma oluşabilmektedir.",
+      "category": "Kolye",
+      "image": "http://www.kocak.com.tr/UserFiles/Fotograflar/org/44973-2-37-karat-alexandrite-pirlanta-kolye-rl07499-14k-copy-jpg-rl07499-14k-copy.jpg"
+    },
+    {
+      "id": 2,
+      "title": "0.44 Pembe Safir Pırlanta Kolye",
+      "price": "5.340 ",
+      "code": "RL07494",
+      "Features": " Özellikler :Toplam Karat:0.44,Ağırlık: 2.13 gr Ayar: 14K,Renk:EF,Berraklık:SI,Taş Özellikleri: 0.05 Karat EF SI Pırlanta,0.39 Karat Lab Created Pink  Sapphire ,Ürün Açıklaması:Ürünlerimizin tamamı el yapımı olduğu için belirtilen ağırlık ve karatta (+/-) %5 sapma oluşabilmektedir.",
+      "category": "Kolye",
+      "image": "http://www.kocak.com.tr/UserFiles/Fotograflar/org/45072-0-44-pembe-safir-pirlanta-kolye-rl07494-copy-jpg-rl07494-copy.jpg"
+    },
+    {
+      "id": 3,
+      "title": "0.43 KARAT BAGET TAŞLI PIRLANTA KOLYE",
+      "price": "12.430 ",
+      "code": "RL07494",
+      "Features": " Özellikler :Toplam Karat:0.43,Ağırlık: 2.85 gr Ayar: 14K,Renk:EF,Berraklık:SI,Taş Özellikleri: 0.11 Karat EF SI Pırlanta,0.32 Karat EF SI ,Ürün Açıklaması:Ürünlerimizin tamamı el yapımı olduğu için belirtilen ağırlık ve karatta (+/-) %5 sapma oluşabilmektedir.",
+      "category": "Kolye",
+      "image": "http://www.kocak.com.tr/UserFiles/Fotograflar/org/45075-0-43-karat-baget-tasli-pirlanta-kolye-l017627-copy-jpg-l017627-copy.jpg"
+    },
+    {
+      "id": 4,
+      "title": "0.94 KARAT YAKUT ELMAS KOLYE",
+      "price": "6.550 ",
+      "code": "ELL5719",
+      "Features": " Özellikler :Toplam Karat:0.43,Ağırlık: 4.22  gr Ayar: 8K,Renk:FG,Berraklık:SI,Taş Özellikleri:0.04 Karat FG SI Elmas,0.90 Karat Lab Created Ruby  ,Ürün Açıklaması:Ürünlerimizin tamamı el yapımı olduğu için belirtilen ağırlık ve karatta (+/-) %5 sapma oluşabilmektedir.",
+      "category": "Kolye",
+      "image": "http://www.kocak.com.tr/UserFiles/Fotograflar/org/45075-0-43-karat-baget-tasli-pirlanta-kolye-l017627-copy-jpg-l017627-copy.jpg"
+    },
+    {
+      "id": 5,
+      "title": "14 AYAR ALTIN ANKA KUŞU KOLYE",
+      "price": "5.300",
+      "code": "14KLY1409",
+      "Features": " Maden: Altın, Renk: Sarı,Ağırlık: 4.25gr Ayar: 14K,Kolye Ucu Boyutu:En 2.50cm-Boy 2.00,Zincir Uuznluğu:43 cm,Taş Tipi:Zirkon",
+      "category": "Kolye",
+      "description": "Ürünlerimizin tamamı el yapımı olduğu için belirtilen ağırlık ve karatta (+/-) %5 sapma oluşabilmektedir.",
+      "image": "https://cdn.kocak.com.tr/Fotograflar/org/37465-14-ayar-altin-anka-kusu-kolye-3-22-gr-anka-kusu-kolye-jpg-3-22-gr-anka-kusu-kolye.jpg?sharpen=true"
+    },
+    {
+      "id": 5,
+      "title": "14 AYAR DORİKA TOPLU ALTIN KOLYE",
+      "price": "2.440",
+      "code": "14KLY1242",
+      "Features": " Maden: Altın, Renk: Sarı,Ağırlık: 1.88 gr Ayar: 14K,Zincir uzunluğu:42cm",
+      "category": "Kolye",
+      "description": "Ürünlerimizin tamamı el yapımı olduğu için belirtilen ağırlık ve karatta (+/-) %5 sapma oluşabilmektedir.",
+      "image": "https://cdn.kocak.com.tr/Fotograflar/org/35217-14-ayar-dorika-toplu-altin-kolye-altin-kolye-3.jpg?sharpen=true"
+    },
+    {
+      "id": 6,
+      "title": "14 AYAR KALP FİGÜRLÜ ALTIN YÜZÜK",
+      "price": "1.140 ",
+      "code": "14YZK1774",
+      "Features": " Maden: Altın, Renk: Sarı,Ağırlık: 0.88 gr Ayar: 14K",
+      "category": "Yüzük",
+      "description": "Ürünlerimizin tamamı el yapımı olduğu için belirtilen ağırlık ve karatta (+/-) %5 sapma oluşabilmektedir.",
+      "image": "https://cdn.kocak.com.tr/Fotograflar/org/44035-14-ayar-kalp-figurlu-altin-yuzuk-201566-copy-jpg-201566-copy.jpg?sharpen=true"
+    },
+    {
+      "id": 7,
+      "title": "14 AYAR GÖZ FİGÜRLÜ ALTIN YÜZÜK",
+      "price": "1.910 ",
+      "code": "14YZK1700",
+      "Features": " Maden: Altın, Renk: Sarı,Ağırlık: 1.48 gr Ayar: 14K",
+      "category": "Yüzük",
+      "description": "Ürünlerimizin tamamı el yapımı olduğu için belirtilen ağırlık ve karatta (+/-) %5 sapma oluşabilmektedir.",
+      "image": "https://cdn.kocak.com.tr/Fotograflar/org/43813-14-ayar-goz-figurlu-altin-yuzuk-199202-copy-jpg-199202-copy.jpg?sharpen=true"
+    },
+    {
+      "id": 8,
+      "title": "14 AYAR GÜNEŞ FİGÜRLÜ ALTIN YÜZÜK",
+      "price": "3.100",
+      "code": "KCK0047",
+      "Features": " Maden: Altın, Renk: Sarı,Ağırlık: 2.22 gr Ayar: 14K",
+      "category": "Yüzük",
+      "description": "Ürünlerimizin tamamı el yapımı olduğu için belirtilen ağırlık ve karatta (+/-) %5 sapma oluşabilmektedir.",
+      "image": "https://cdn.kocak.com.tr/Fotograflar/org/43719-14-ayar-gunes-figurlu-altin-yuzuk-199208-copy-jpg-199208-copy.jpg?sharpen=true"
+    },
+    {
+      "id": 9,
+      "title": "14 AYAR ÇİÇEK KELEBEK FİGÜRLÜ ALTIN YÜZÜK",
+      "price": "2.210 ",
+      "code": "KCK0020",
+      "Features": " Maden: Altın, Renk: Sarı,Ağırlık: 1.58 gr Ayar: 14K",
+      "category": "Yüzük",
+      "description": "Ürünlerimizin tamamı el yapımı olduğu için belirtilen ağırlık ve karatta (+/-) %5 sapma oluşabilmektedir.",
+      "image": "https://cdn.kocak.com.tr/Fotograflar/org/43182-14-ayar-cicek-kelebek-figurlu-altin-yuzuk-199199-copy-jpg-199199-copy.jpg?sharpen=true"
+    },
+    {
+      "id": 10,
+      "title": "14 AYAR SARI ALTIN YÜZÜK",
+      "price": "2.090 ",
+      "code": "14YZK1649",
+      "Features": " Maden: Altın, Renk: Sarı,Ağırlık: 1.62 gr Ayar: 14K",
+      "category": "Yüzük",
+      "description": "Ürünlerimizin tamamı el yapımı olduğu için belirtilen ağırlık ve karatta (+/-) %5 sapma oluşabilmektedir.",
+      "image": "https://cdn.kocak.com.tr/Fotograflar/org/41783-14-ayar-sari-altin-yuzuk-181690-copy-jpg-181690-copy.jpg?sharpen=true"
+    },
+    {
+      "id": 11,
+      "title": "14 AYAR GÖZ FİGÜRLÜ ALTIN HALHAL",
+      "price": "2.490 ",
+      "code": "14HL158",
+      "Features": " Maden: Altın, Renk: Sarı,Ağırlık: 1.93  gr Ayar: 14K",
+      "category": "Bileklik",
+      "description": "Ürünlerimizin tamamı el yapımı olduğu için belirtilen ağırlık ve karatta (+/-) %5 sapma oluşabilmektedir.",
+      "image": "https://cdn.kocak.com.tr/Fotograflar/org/44228-14-ayar-goz-figurlu-altin-halhal-halhal-209962-copy.jpg?sharpen=true"
+    },
+    {
+      "id": 12,
+      "title": "14 AYAR PLAKA 3 RENK TOPLU ALTIN BİLEKLİK",
+      "price": "4.170 ",
+      "code": "14BLK995",
+      "Features": " Maden: Altın, Renk: Sarı,Ağırlık: 1.88 gr Ayar: 14K",
+      "category": "Bileklik",
+      "description": "Ürünlerimizin tamamı el yapımı olduğu için belirtilen ağırlık ve karatta (+/-) %5 sapma oluşabilmektedir.",
+      "image": "https://cdn.kocak.com.tr/Fotograflar/org/36686-14-ayar-plaka-3-renk-toplu-altin-bileklik-14-ayar-plaka-3-renk-toplu-altin-bileklik-14blk995.jpg?sharpen=true"
+    },
+    {
+      "id": 13,
+      "title": "14 AYAR ALTIN BİLEKLİK",
+      "price": "2.000 ",
+      "code": "14BLK1346",
+      "Features": " Maden: Altın, Renk: Sarı,Ağırlık: 1.55 gr Ayar: 14K",
+      "category": "Bileklik",
+      "description": "Ürünlerimizin tamamı el yapımı olduğu için belirtilen ağırlık ve karatta (+/-) %5 sapma oluşabilmektedir.",
+      "image": "https://cdn.kocak.com.tr/Fotograflar/org/44161-14-ayar-altin-bileklik-ke93023-copy-jpg-ke93023-copy.jpg?sharpen=true"
+    },
+    {
+      "id": 14,
+      "title": "14 AYAR YILDIZ FİGÜRLÜ ALTIN BİLEKLİK",
+      "price": "4.340 ",
+      "code": "14BLK1341",
+      "Features": " Maden: Altın, Renk: Sarı,Ağırlık: 3.37 gr Ayar: 14K",
+      "category": "Bileklik",
+      "description": "Ürünlerimizin tamamı el yapımı olduğu için belirtilen ağırlık ve karatta (+/-) %5 sapma oluşabilmektedir.",
+      "image": "https://cdn.kocak.com.tr/Fotograflar/org/44156-14-ayar-yildiz-figurlu-altin-bileklik-203142-copy-jpg-203142-copy.jpg?sharpen=true"
+    },
+    {
+      "id": 15,
+      "title": "14 AYAR YONCA FİGÜRLÜ ALTIN BİLEKLİK",
+      "price": "5.100 ",
+      "code": "14BLK1337",
+      "Features": " Maden: Altın, Renk: Sarı,Ağırlık: 3.94 gr Ayar: 14K",
+      "category": "Bileklik",
+      "description": "Ürünlerimizin tamamı el yapımı olduğu için belirtilen ağırlık ve karatta (+/-) %5 sapma oluşabilmektedir.",
+      "image": "https://cdn.kocak.com.tr/Fotograflar/org/44152-14-ayar-yonca-figurlu-altin-bileklik-203143-1-copy-jpg-203143-1-copy.jpg?sharpen=true"
+    },
+    {
+      "id": 16,
+      "title": "14 AYAR HALKA SARI ALTIN KÜPE",
+      "price": "3.150",
+      "code": "14KUP1496",
+      "Features": " Maden: Altın, Renk: Sarı,Ağırlık: 2.44 gr Ayar: 14K",
+      "category": "Küpe",
+      "description": "Ürünlerimizin tamamı el yapımı olduğu için belirtilen ağırlık ve karatta (+/-) %5 sapma oluşabilmektedir.",
+      "image": "https://cdn.kocak.com.tr/Fotograflar/org/44232-14-ayar-halka-sari-altin-kupe-209956-copy-jpg-209956-copy.jpg?sharpen=true"
+    },
+    {
+      "id": 17,
+      "title": "14 AYAR ÇİÇEK KELEBEK FİGÜRLÜ ALTIN KÜPE",
+      "price": "3.130",
+      "code": "KCK0021",
+      "Features": " Maden: Altın, Renk: Sarı,Ağırlık: 2.44 gr Ayar: 14K",
+      "category": "Küpe",
+      "description": "Ürünlerimizin tamamı el yapımı olduğu için belirtilen ağırlık ve karatta (+/-) %5 sapma oluşabilmektedir.",
+      "image": "https://cdn.kocak.com.tr/Fotograflar/org/43183-14-ayar-cicek-kelebek-figurlu-altin-kupe-199220-copy-jpg-199220-copy.jpg?sharpen=true"
+    },
+    {
+      "id": 18,
+      "title": "14 AYAR SALLANTILI ÇAPA FİGÜRLÜ ALTIN KÜPE",
+      "price": "1.980  ",
+      "code": "14KUP1380",
+      "Features": "Maden: Altın, Renk: Sarı,Ağırlık:1.53 gr Ayar: 14K",
+      "category": "Küpe",
+      "description": "Ürünlerimizin tamamı el yapımı olduğu için belirtilen ağırlık ve karatta (+/-) %5 sapma oluşabilmektedir.",
+      "image": "https://cdn.kocak.com.tr/Fotograflar/org/42598-14-ayar-sallantili-capa-figurlu-altin-kupe-195889-3-copy-jpg-195889-3-copy.jpg?sharpen=true"
+    },
+    {
+      "id": 19,
+      "title": "14 AYAR HALKA KALP ALTIN KÜPE",
+      "price": "2.300 ",
+      "code": "14KUP1376",
+      "Features": " Maden: Altın, Renk: Sarı,Ağırlık: 1.78 gr Ayar: 14K",
+      "category": "Küpe",
+      "description": "Ürünlerimizin tamamı el yapımı olduğu için belirtilen ağırlık ve karatta (+/-) %5 sapma oluşabilmektedir.",
+      "image": "https://cdn.kocak.com.tr/Fotograflar/org/42594-14-ayar-halka-kalp-altin-kupe-195887-copy-jpg-195887-copy.jpg?sharpen=true"
+    },
+    {
+      "id": 20,
+      "title": "14 AYAR KALP FİGÜRLÜ ALTIN KÜPE",
+      "price": "4.340 ",
+      "code": "14KUP1371",
+      "Features": " Maden: Altın, Renk: Sarı,Ağırlık: 1.28 gr Ayar: 14K",
+      "category": "Küpe",
+      "description": "Ürünlerimizin tamamı el yapımı olduğu için belirtilen ağırlık ve karatta (+/-) %5 sapma oluşabilmektedir.",
+      "image": "https://cdn.kocak.com.tr/Fotograflar/org/42589-14-ayar-kalp-figurlu-altin-kupe-195894-1-copy-jpg-195894-1-copy.jpg?sharpen=true"
+    }
+  ],
+  "signupUsers": [
+    {
+      "fullname": "dilara tekin",
+      "email": "dilara@gmail.com",
+      "password": "123",
+      "mobile": "05467665109",
+      "id": 1
+    },
+    {
+      "fullname": "",
+      "email": "",
+      "password": "",
+      "mobile": "",
+      "id": 2
+    },
+    {
+      "fullname": "onur",
+      "email": "onur@gmail.com",
+      "password": "456",
+      "mobile": "1111111",
+      "id": 3
+    },
+    {
+      "fullname": "fatih çelik",
+      "email": "fatih@gmail.com",
+      "password": "852",
+      "mobile": "054616578952",
+      "id": 4
+    },
+    {
+      "fullname": "bugay sarıkaya",
+      "email": "bugay@gmail.com",
+      "password": "147",
+      "mobile": "05447889695",
+      "id": 5
+    },
+    {
+      "fullname": "gizem özcan",
+      "email": "gizem@gmail.com",
+      "password": "gzm123",
+      "mobile": "",
+      "id": 6
+    },
+    {
+      "fullname": "test_1",
+      "email": "test@gmail.com",
+      "password": "123",
+      "mobile": "5555",
+      "id": 7
+    }
+  ],
+  "cart": [
+    {
+      "id": 1,
+      "title": "2.37 Karat Alexandrite Pırlanta Kolye",
+      "price": "6.010 ",
+      "code": "RL07499",
+      "Features": " Özellikler :Toplam Karat:2.37,Ağırlık: 3.13 gr Ayar: 14K,Renk:EF,Berraklık:SI,Taş Özellikleri: 0.05 Karat EF SI Pırlanta,2.32 Karat Lab Created AlexandriteI,Ürün Açıklaması:Ürünlerimizin tamamı el yapımı olduğu için belirtilen ağırlık ve karatta (+/-) %5 sapma oluşabilmektedir.",
+      "category": "Kolye",
+      "image": "http://www.kocak.com.tr/UserFiles/Fotograflar/org/44973-2-37-karat-alexandrite-pirlanta-kolye-rl07499-14k-copy-jpg-rl07499-14k-copy.jpg",
+      "quantity": 1,
+      "total": "6.010 ",
+      "user": 1
+    },
+    {
+      "id": 2,
+      "title": "0.44 Pembe Safir Pırlanta Kolye",
+      "price": "5.340 ",
+      "code": "RL07494",
+      "Features": " Özellikler :Toplam Karat:0.44,Ağırlık: 2.13 gr Ayar: 14K,Renk:EF,Berraklık:SI,Taş Özellikleri: 0.05 Karat EF SI Pırlanta,0.39 Karat Lab Created Pink  Sapphire ,Ürün Açıklaması:Ürünlerimizin tamamı el yapımı olduğu için belirtilen ağırlık ve karatta (+/-) %5 sapma oluşabilmektedir.",
+      "category": "Kolye",
+      "image": "http://www.kocak.com.tr/UserFiles/Fotograflar/org/45072-0-44-pembe-safir-pirlanta-kolye-rl07494-copy-jpg-rl07494-copy.jpg",
+      "quantity": 1,
+      "total": "5.340 ",
+      "user": 1
+    },
+    {
+      "id": 3,
+      "title": "0.43 KARAT BAGET TAŞLI PIRLANTA KOLYE",
+      "price": "12.430 ",
+      "code": "RL07494",
+      "Features": " Özellikler :Toplam Karat:0.43,Ağırlık: 2.85 gr Ayar: 14K,Renk:EF,Berraklık:SI,Taş Özellikleri: 0.11 Karat EF SI Pırlanta,0.32 Karat EF SI ,Ürün Açıklaması:Ürünlerimizin tamamı el yapımı olduğu için belirtilen ağırlık ve karatta (+/-) %5 sapma oluşabilmektedir.",
+      "category": "Kolye",
+      "image": "http://www.kocak.com.tr/UserFiles/Fotograflar/org/45075-0-43-karat-baget-tasli-pirlanta-kolye-l017627-copy-jpg-l017627-copy.jpg",
+      "quantity": 1,
+      "total": "12.430 ",
+      "user": 1
+    },
+    {
+      "id": 4,
+      "title": "0.94 KARAT YAKUT ELMAS KOLYE",
+      "price": "6.550 ",
+      "code": "ELL5719",
+      "Features": " Özellikler :Toplam Karat:0.43,Ağırlık: 4.22  gr Ayar: 8K,Renk:FG,Berraklık:SI,Taş Özellikleri:0.04 Karat FG SI Elmas,0.90 Karat Lab Created Ruby  ,Ürün Açıklaması:Ürünlerimizin tamamı el yapımı olduğu için belirtilen ağırlık ve karatta (+/-) %5 sapma oluşabilmektedir.",
+      "category": "Kolye",
+      "image": "http://www.kocak.com.tr/UserFiles/Fotograflar/org/45075-0-43-karat-baget-tasli-pirlanta-kolye-l017627-copy-jpg-l017627-copy.jpg",
+      "quantity": 1,
+      "total": "6.550 ",
+      "user": 1
+    }
+  ]
+}
